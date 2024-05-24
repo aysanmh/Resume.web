@@ -1,0 +1,241 @@
+.pic {
+  border: 40px solid  rgb(253, 186, 20);
+  border-right: none;
+  border-top: none;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 90px 10px;
+  height: 400px;
+  width: 300px;}
+#t1{
+  font-family:"Lexend Deca", sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 190px;
+  margin-top: 150px;
+  vertical-align: top;
+  padding-bottom: 0px;
+  font-size: 50px;
+}
+#t2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family:"Lexend Deca", sans-serif;
+}
+#p1 {
+  
+  margin-top:0px;
+  font-family:"Lexend Deca", sans-serif;
+  display: inline-block;
+  width: 600px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+#p2{
+  
+  font-family:"Lexend Deca", sans-serif;
+  display: inline-block;
+  position: relative;
+  margin-left: 60px;
+  word-spacing: 5px;
+  line-height: 25px;
+  
+}
+#p3{
+ 
+  font-family:"Lexend Deca", sans-serif;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin-left: 150px;
+  padding: 20px;
+  border: 3px solid rgba(44, 42, 42, 0.329);
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  padding: 0px 10px 10px 20px;
+}
+.navbar{
+ display: inline-block;
+ position:fixed;
+ left: 1430px;
+ bottom:170px
+}
+.list{
+  list-style-type:none;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  padding: 10px 10px;
+  border-radius: 20px;
+  top:150px;
+  margin: 30px 0px;
+
+}
+.list:hover{
+  background-color: rgb(253, 186, 20);
+}
+
+
+.font{
+  font-size: 50px;
+  color:  rgb(253, 186, 20);
+  text-align:justify;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-weight: bolder;
+}
+.form{
+  background-color: rgba(39, 37, 37, 0.889);
+  border-radius: 20px;
+  border-style: none;
+  position: relative;
+  bottom: 350px;
+  margin: 20px 10px;
+  padding: 10px;
+  
+}
+.year{
+  border: none;
+  border-radius: 10px;
+  background-color:  rgba(39, 37, 37, 0.889);
+  text-align: center;
+  font-family:"Lexend Deca", sans-serif;
+  color: white;
+  padding: 7px 10px;
+  font-size: 10px;
+  vertical-align: top;
+}
+#i{
+  background-color: rgb(253, 186, 20);
+  border-radius: 20px;
+  padding: 5px;
+}
+#y{
+  color: rgb(253, 186, 20);
+}
+#p1,#t1,#t2,#p2,#p3,#w{
+
+  color: white;
+}
+.n{
+  color: white;
+  display: inline-block;
+  font-family:"Lexend Deca", sans-serif;
+  padding: 5px;
+  margin: 20px;
+  font-size: 10px;
+  cursor:pointer;
+
+}
+.n:active{
+  color: rgb(253, 186, 20);
+}
+.image{
+  margin: 20px;
+  border-radius: 5px;
+  display: none;
+}
+#button{
+  background-color:rgba(39, 37, 37, 0.889);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gallery img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  object-position: center;
+  display: block;
+
+}
+
+
+.recipe {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(17, 17, 17);
+  border-radius: 8px;
+  margin: 30px;
+  padding: 50px;
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  display: inline-block;
+  border: solid rgba(44, 42, 42, 0.329);
+  vertical-align: top;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.recipe h2 {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  
+
+}
+
+.recipe img {
+  height: 100px;
+  max-width:200px ;
+  border-radius: 8px;
+  margin: 5px;
+  margin-left: 50px;
+ 
+}
+
+.recipe p {
+  margin: 10px;
+  font-size: 10px;
+  display: inline-block;
+  
+}
+
+.recipe ol {
+  margin-left: 0px;
+
+}
+
+.recipe hr {
+  border: none;
+  margin-top: 0px;
+  border-bottom: px solid rgb(253, 186, 20); 
+  
+}
+
+
+.recipe-details {
+  display: none;
+}
+
+.recipe.show-details .recipe-details {
+  display: block;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 200px;
+  margin: 10px;
+  background-color: rgb(17, 17, 17);
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(39, 37, 37, 0.889);
+}
